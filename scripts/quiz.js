@@ -27,7 +27,7 @@ function calculateScore() {
       }
       index = index + 1;
     }
-     console.log("The score is "+score);
+    // console.log("The score is "+score);
     outputEl.innerText = "The score is " + score;
   }
 
