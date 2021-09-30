@@ -30,11 +30,6 @@ function calculateScore() {
      console.log("The score is "+score);
     outputEl.innerText = "The score is " + score;
   }
-  
-  submit.addEventListener("click", clickhandler);
 
+  submit.addEventListener("click", calculateScore);
   
-  
-  function clickhandler(){
-      console.log("clicked");
-  }
